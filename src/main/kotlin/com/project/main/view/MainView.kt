@@ -32,8 +32,7 @@ class MainView : View("Game Manager") {
     private val dinput = SimpleStringProperty()
     private val linput = SimpleStringProperty("Name Here")
     override val root = squeezebox {
-        setMaxSize(600.0, 600.0)
-        setMinSize(600.0, 600.0)
+        setMinSize(800.0, 800.0)
         fold(expanded = true, closeable = false) {
             drawer {
                 item("About", expanded = true) {
